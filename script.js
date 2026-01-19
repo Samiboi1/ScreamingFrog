@@ -1,9 +1,12 @@
 const frogimage = document.getElementById('frogImg'); 
 const originalFrogimg = './imgs/frog.png';
 const newFrogimg = './imgs/frogscream.png';
-const wednesdayimage = document.getElementById('wedImg')
+const wednesdayimage = document.getElementById('wedImg');
 const originalWednesdayimg = './imgs/wednesday.jpg';
 const newWednesdayimg = './imgs/itswednesday.jpg';
+const skeletonimage = document.getElementById('sklImg');
+const originalSkeletonimg = './imgs/skeleton.jpg';
+const newSkeletonimg = './imgs/skeletonbash.jpg';
 
 async function frog() {
     const frogaudio = new Audio('./audios/screamingfrog-audio.mp3')
@@ -15,6 +18,11 @@ async function scream() {
     wednesdayaudio.play();
 };
 
+async function rah() {
+    const rahaudio = new Audio('./audios/skeleton-with-shield.mp3')
+    rahaudio.play();
+};
+
 document.getElementById('frogImg').addEventListener("click", () => {
 	frog();
 
@@ -22,7 +30,7 @@ document.getElementById('frogImg').addEventListener("click", () => {
 
     setTimeout(function() {
         frogimage.src = originalFrogimg;
-    }, 4000);
+    }, 5000);
 });
 
 document.getElementById('wedImg').addEventListener("click", () => {
@@ -32,5 +40,15 @@ document.getElementById('wedImg').addEventListener("click", () => {
 
     setTimeout(function() {
         wednesdayimage.src = originalWednesdayimg;
+    }, 7000);
+});
+
+document.getElementById('sklImg').addEventListener("click", () => {
+	rah();
+
+    skeletonimage.src = newSkeletonimg;
+
+    setTimeout(function() {
+        skeletonimage.src = originalSkeletonimg;
     }, 6000);
 });

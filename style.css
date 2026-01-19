@@ -26,14 +26,14 @@ main {
     justify-content: center;
 }
 
-#frogBtn, #wedBtn {
+#frogBtn, #wedBtn, #sklBtn {
     display: inline-block;
     padding: 0;
     border: none;
     background: transparent;
 }
 
-#frogImg, #wedImg {
+#frogImg, #wedImg, #sklImg {
     display: block;
     width: 80vw;
     max-width: 400px;
@@ -41,14 +41,14 @@ main {
 }
 
 @media (max-width: 480px) {
-    #frogImg, #wedImg {
+    #frogImg, #wedImg, #sklImg {
         width: 90vw;
         max-width: 350px;
     }
 }
 
 @media (min-width: 900px) {
-    #frogImg, #wedImg {
+    #frogImg, #wedImg, #sklImg {
         width: 40vw;
         max-width: 450px;
     }
