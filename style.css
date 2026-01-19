@@ -22,6 +22,8 @@ button:hover {
 main {
     min-height: 60vh;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
 }
@@ -35,21 +37,20 @@ main {
 
 #frogImg, #wedImg, #sklImg {
     display: block;
-    width: 80vw;
-    max-width: 400px;
+    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
-@media (max-width: 480px) {
-    #frogImg, #wedImg, #sklImg {
-        width: 90vw;
-        max-width: 350px;
-    }
+#frogBtn, #wedBtn, #sklBtn {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: min(80vw, 400px);
 }
-
 @media (min-width: 900px) {
-    #frogImg, #wedImg, #sklImg {
-        width: 40vw;
-        max-width: 450px;
+    #frogBtn, #wedBtn, #sklBtn {
+        width: min(25vw, 450px); 
     }
 }
