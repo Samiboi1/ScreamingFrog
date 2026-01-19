@@ -9,14 +9,8 @@ const cacheName = `web-app-cache-${SW_VERSION}`;
 const staticFiles = [
   '/sw-registration.js',
   '/index.html',
-  '/manifest.json',
-  '/about_us.html',
-  '/events.html',
-  '/css/about_us.css',
-  '/css/events.css',
-  '/css/style.css',
-  '/css/header.css',
-  '/css/footer.css',
+  '/script.js',
+  '/style.css'
 ];
 
 // routes to cache

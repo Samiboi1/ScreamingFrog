@@ -1,29 +1,29 @@
 {
-    "theme_color": "#384e66",
-    "background_color": "#384e66",
+    "theme_color": "#9ef041",
+    "background_color": "#9ef041",
     "icons": [
         {
             "purpose": "maskable",
             "sizes": "512x512",
-            "src": "./icons/vpl-logo-no-bg_192x192.jpg",
+            "src": "./frog.png",
             "type": "image/png"
         },
         {
             "purpose": "any",
             "sizes": "512x512",
-            "src": "./icons/vpl-logo-no-bg_192x192.jpg",
+            "src": "./frog.png",
             "type": "image/png"
         },
         {
             "purpose": "any",
             "sizes": "192x192",
-            "src": "./icons/vpl-logo-no-bg_192x192.jpg",
+            "src": "./frog.png",
             "type": "image/png"
         },
         {
             "purpose": "maskable",
             "sizes": "192x192",
-            "src": "./icons/vpl-logo-no-bg_192x192.jpg",
+            "src": "./frog.png",
             "type": "image/png"
         }
     ],
@@ -31,6 +31,6 @@
     "display": "standalone",
     "dir": "auto",
     "lang": "sv",
-    "name": "Valar på Land",
-    "short_name": "VPL"
+    "name": "Screaming Frog",
+    "short_name": "Frog"
 }
