@@ -1,13 +1,14 @@
-const audio = new Audio('screamingfrog-audio.mp3')
+const image = document.getElementById('myimage'); 
+const originalimg = 'frog.png';
+const newimg = 'frogscream.png';
+
+async function scream() {
+	const audio = new Audio('screamingfrog-audio.mp3')
+    audio.play();
+}
 
 document.getElementById('mybutton').addEventListener("click", () => {
-    audio.play();
-});
-
-document.getElementById('mybutton').addEventListener('click', function () {
-    const image = document.getElementById('myimage'); 
-    const originalimg = 'frog.png';
-    const newimg = 'frogscream.png';
+	scream();
 
     image.src = newimg;
 
