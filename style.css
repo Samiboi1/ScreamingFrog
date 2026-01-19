@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(158, 240, 65);
+    background-color: #740202;
     text-align: center;
 }
 
@@ -7,6 +7,12 @@ h1 {
     font-size: 3rem;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
 }
 
 button:hover {
@@ -20,14 +26,14 @@ main {
     justify-content: center;
 }
 
-#mybutton {
+#frogBtn, #wedBtn {
     display: inline-block;
     padding: 0;
     border: none;
     background: transparent;
 }
 
-#myimage {
+#frogImg, #wedImg {
     display: block;
     width: 80vw;
     max-width: 400px;
@@ -35,14 +41,14 @@ main {
 }
 
 @media (max-width: 480px) {
-    #myimage {
+    #frogImg, #wedImg {
         width: 90vw;
         max-width: 350px;
     }
 }
 
 @media (min-width: 900px) {
-    #myimage {
+    #frogImg, #wedImg {
         width: 40vw;
         max-width: 450px;
     }
