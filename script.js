@@ -6,13 +6,13 @@ const originalWednesdayimg = './imgs/wednesday.jpg';
 const newWednesdayimg = './imgs/itswednesday.jpg';
 
 async function frog() {
-    const audio = new Audio('./audios/screamingfrog-audio.mp3')
-    audio.play();
+    const frogaudio = new Audio('./audios/screamingfrog-audio.mp3')
+    frogaudio.play();
 };
 
 async function scream() {
-    const audio = new Audio('./audios/it-is-wednesday-my-dudes-vine.mp3')
-    audio.play();
+    const wednesdayaudio = new Audio('./audios/it-is-wednesday-my-dudes-vine.mp3')
+    wednesdayaudio.play();
 };
 
 document.getElementById('frogImg').addEventListener("click", () => {
@@ -32,5 +32,5 @@ document.getElementById('wedImg').addEventListener("click", () => {
 
     setTimeout(function() {
         wednesdayimage.src = originalWednesdayimg;
-    }, 4000);
+    }, 6000);
 });
